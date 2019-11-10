@@ -14,12 +14,12 @@ import com.explore.userdetails.service.UserService;
 public class UserController {
 
 	@Autowired
-	private UserService userDetailService;
+	private UserService userService;
 	
 	@RequestMapping(value = "/{userid}", method = RequestMethod.GET)
 	public User getUser(@PathVariable int userid) {
 		System.out.println("Got a request for user : " + userid);
-		return null;
+		return userService.getUser(userid);
 	}
 	
 }
