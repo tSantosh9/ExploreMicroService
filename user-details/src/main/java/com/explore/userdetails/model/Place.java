@@ -1,4 +1,4 @@
-package com.explore.userhistory.model;
+package com.explore.userdetails.model;
 
 public class Place {
 
