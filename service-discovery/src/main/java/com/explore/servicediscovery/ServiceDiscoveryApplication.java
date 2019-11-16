@@ -1,13 +1,13 @@
-package com.explore.discoveryserver;
+package com.explore.servicediscovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DiscoveryServerApplication {
+public class ServiceDiscoveryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DiscoveryServerApplication.class, args);
+		SpringApplication.run(ServiceDiscoveryApplication.class, args);
 	}
 
 }
